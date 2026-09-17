@@ -319,6 +319,10 @@ Two firmware revisions were found: `A` and `B`. Their exact purpose is currently
 One notable behavior observed in the application logic is that when the revision cannot be determined, revision `A` appears to be used as the default. If these firmware packages are not interchangeable between hardware variants, this fallback could potentially cause update failures or device bricking. This has not been confirmed experimentally.
 
 
+## Firmware download
+
+It is possibile to download the encrypted firmware, more in [firmware_ota](./FIRMWARE_OTA.md)
+
 ## PCB Photo
 
 ![PCB](photos/hires_tiki.jpeg)
